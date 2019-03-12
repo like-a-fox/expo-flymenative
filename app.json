@@ -2,7 +2,7 @@
   "expo": {
     "name": "Fly Me Native",
     "description": "A Better Way To Travel",
-    "slug": "flymenative",
+    "slug": "fly-me-native",
     "privacy": "public",
     "sdkVersion": "30.0.0",
     "platforms": [
@@ -26,9 +26,11 @@
       "icon": "./assets/images/icon.png",
       "bundleIdentifier":"me.fly.flymenative"
     },
+    "android":{
+      "package": "me.fly.flymenative"
+    },
     "updates": {
       "fallbackToCacheTimeout": 0,
-      "enable":true,
       "checkAutomatically":"ON_LOAD"
     },
     "githubUrl": "https://github.com/like-a-fox/fly-me-native"
